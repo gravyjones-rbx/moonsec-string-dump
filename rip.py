@@ -111,6 +111,7 @@ def main():
     index_counter = 0
     for pos in positive_locs:
         obfuscated_script.insert(pos-index_counter,VAR_DUMP)
+	#index account was ment to be used but wasnt needed, can be removed
 
     with open("patched_script.lua","w") as file:
         file.write("".join(obfuscated_script))
