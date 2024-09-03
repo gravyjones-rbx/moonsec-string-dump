@@ -14,3 +14,4 @@ we edit the lua file to add an anti anti tamper, so we can edit the file without
 then we add some code to dump the longest string in stack right before we crash 
 * I found these crash sections by manually running two moon sec files and seeing where they crashed, one file compiled for lua and one for roblox executors
 
+# testing this a month after I built it and it doesnt appear that the the anti anti tamper is working looks like i may have to make a custom luua vm :(
